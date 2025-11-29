@@ -1,0 +1,30 @@
+package com.oops;
+
+public class Mobile {
+	String brand;
+	double salary;
+	String color;
+
+	public static void main(String[] args) {
+		Mobile m = new Mobile();
+		System.out.println(m.brand);
+		System.out.println(m.salary);
+		System.err.println(m.color);
+
+		m.brand = "oppo";
+		m.salary = 487674.34;
+		m.color = "gray";
+		System.out.println(m.brand);
+		System.out.println(m.salary);
+		System.out.println(m.color);
+		Mobile m2 = new Mobile();
+		System.out.println(m2.brand);
+		System.out.println(m2.color);
+		System.out.println(m2.salary);
+		m2.brand = "redmi";
+		m2.color = "red";
+		m2.salary = 36673.47;
+
+	}
+
+}

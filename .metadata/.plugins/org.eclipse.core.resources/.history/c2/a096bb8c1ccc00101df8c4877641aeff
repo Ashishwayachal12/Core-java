@@ -1,0 +1,12 @@
+package com.encapsulation;
+
+public class AtmTest {
+	public static void main(String[] args) {
+		Atm a = new Atm(1234);
+		System.out.println(a.getPin());
+
+		a.setPin(1111);
+		System.out.println(a.getPin());
+	}
+
+}

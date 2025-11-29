@@ -1,0 +1,18 @@
+package com.basicpro;
+
+import java.util.Scanner;
+
+public class PrimeNumber {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int n=sc.nextInt(),count=2;
+		for(int s=0;s<=n;s++) {
+			if(n%s==0) {
+				count++;
+			}
+			sc.close();
+		}
+		System.out.println(count==2?n+" is prime Number.":n+" is not a prime number.");
+	}
+
+}

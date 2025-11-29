@@ -1,0 +1,12 @@
+package com.method;
+
+public class Example {
+	int a;
+
+	public static void main(String[] args) {
+		Example e = new Example();
+		System.out.println(e.a);
+
+	}
+
+}

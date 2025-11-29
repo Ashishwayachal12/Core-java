@@ -1,0 +1,24 @@
+package com.relationship;
+
+public class Student {
+	
+	int id;
+	String name;
+	int age;
+	
+	Department dapartment;
+
+	public Student(int id, String name, int age, Department dapartment) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.age = age;
+		this.dapartment = dapartment;
+		
+		if()
+	}
+	
+	
+	
+
+}

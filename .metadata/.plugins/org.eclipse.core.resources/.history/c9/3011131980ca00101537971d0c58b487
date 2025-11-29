@@ -1,0 +1,8 @@
+package com.Logical;
+
+public class SmallestNumber {
+	public static void main(String[] args) {
+		
+	}
+
+}

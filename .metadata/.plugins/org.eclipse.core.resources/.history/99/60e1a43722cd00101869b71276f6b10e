@@ -1,0 +1,8 @@
+package com.polymorphism;
+
+public class AccountTest {
+	public static void main(String[] args) {
+		Account a = new SavingAccount(100);
+	}
+
+}

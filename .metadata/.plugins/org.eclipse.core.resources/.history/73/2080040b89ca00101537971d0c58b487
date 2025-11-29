@@ -1,0 +1,18 @@
+package com.whileloop;
+
+import java.util.Scanner;
+
+public class Number_m_n {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter m value(starting):");
+		int start = sc.nextInt();
+		System.out.println("Enter n value(ending):");
+		int end = sc.nextInt();
+		while (start <= end) {
+			System.out.println(start++ + " ,");
+		}
+		sc.close();
+	}
+
+}

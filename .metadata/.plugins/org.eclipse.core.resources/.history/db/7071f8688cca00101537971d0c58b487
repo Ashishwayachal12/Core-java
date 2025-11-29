@@ -1,0 +1,20 @@
+package com.whileloop;
+
+import java.util.Scanner;
+
+public class CountEvenNumber_n_1_doloop {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("ending point is 1:");
+		System.out.println("Enter a stating point:");
+		int start = sc.nextInt(), end = 1, count = 0;
+		do {
+			start--;
+
+		} while (start >= end);
+		System.out.println(count);
+		sc.close();
+
+	}
+
+}

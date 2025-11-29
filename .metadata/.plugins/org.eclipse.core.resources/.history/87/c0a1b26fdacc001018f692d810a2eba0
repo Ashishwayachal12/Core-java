@@ -1,0 +1,17 @@
+package com.inheritance;
+
+public class SBI extends Bank {
+	String branchName;
+
+	public SBI(String bName, String ifsc, String branchName) {
+		super(bName, ifsc);
+		this.branchName = branchName;
+	}
+
+	public void details() {
+		System.out.println("Bank name is:" + bName);
+		System.out.println("ifsc code is:" + bName);
+		System.out.println("Branch name is:" + bName);
+	}
+
+}

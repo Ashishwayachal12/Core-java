@@ -1,0 +1,9 @@
+package com.polymorphism;
+
+public class Dog extends Animal {
+	void Sound() {
+		super.Sound();
+//		System.out.println("bow-bow");
+	}
+
+}

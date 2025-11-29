@@ -1,0 +1,10 @@
+package com.polymorphism;
+
+public class Test_1 {
+	public static void main(String[] args) {
+		Animal a= new Dog();
+		a.Sound();
+		
+	}
+
+}

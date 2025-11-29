@@ -1,0 +1,23 @@
+package com.for_loop;
+
+import java.util.Scanner;
+
+public class CountOddNumber_M_N {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter starting value:");
+		int start = sc.nextInt();
+		System.out.println("Enter ending value:");
+		int end = sc.nextInt();
+		for (int count = 0; start <= end; start++) {
+			if (start % 2 == 1) {
+				count++;
+				System.out.print(start + " ");
+				System.out.println();
+			}
+			System.out.println("count of oddNumber is:" + count);
+			sc.close();
+		}
+	}
+
+}

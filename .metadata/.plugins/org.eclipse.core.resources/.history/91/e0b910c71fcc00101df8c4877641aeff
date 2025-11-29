@@ -1,0 +1,25 @@
+package com.encapsulation;
+
+public class EmployeeTest {
+
+	public static void main(String[] args) {
+		Employee e = new Employee("scott", 30, "Male", 378738732l);
+		getterAndSetter(e);
+
+		e.setEmployeeName("king");
+		e.setGender("male");
+		e.setAge(299);
+		e.setMobileNo(734873489340l);
+		getterAndSetter(e);
+
+	}
+
+	private static void getterAndSetter(Employee e) {
+		System.out.println("Employee name is:" + e.getEmployeeName());
+		System.out.println("Employee age is:" + e.getAge());
+		System.out.println("Employee gender is:" + e.getGender());
+		System.out.println("Employee Mobile number is: " + e.getMobileNo());
+
+	}
+
+}

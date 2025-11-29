@@ -1,0 +1,9 @@
+package com.hieraricalinheritance;
+
+public class VehicalTest {
+	public static void main(String[] args) {
+		Bike bike = new Bike("xl", 2021, 120);
+		bike.bikeDetail();
+	}
+
+}

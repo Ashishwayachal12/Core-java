@@ -1,0 +1,12 @@
+package com.nonprimitivetypecasting;
+
+public class SbiTest {
+	public static void main(String[] args) {
+		Sbi s = new Sbi("state bank of india","SBI99588", "hebbala");
+		System.out.println(s.bName);
+		System.out.println(s.ifsc);
+		System.out.println(s.branch);
+		
+	}
+
+}

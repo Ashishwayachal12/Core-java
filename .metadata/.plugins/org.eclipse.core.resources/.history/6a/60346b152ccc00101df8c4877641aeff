@@ -1,0 +1,8 @@
+package com.phonepy;
+
+public class PhonepeTest {
+	public static void main(String[] args) {
+		new Phonepy("smith", "smith12");
+	}
+
+}

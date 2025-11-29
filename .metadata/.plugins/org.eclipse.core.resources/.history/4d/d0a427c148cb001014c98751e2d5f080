@@ -1,0 +1,21 @@
+package com.method;
+
+import java.util.Scanner;
+
+public class Factorial {
+
+	public static void factorial(int n) {
+		int fact = 1;
+		for (int a = n; a > 0; a--) {
+			fact *= a;
+		}
+		System.out.println("factorial of " + n + " is: " + fact);
+	}
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		factorial(n);
+	}
+
+}

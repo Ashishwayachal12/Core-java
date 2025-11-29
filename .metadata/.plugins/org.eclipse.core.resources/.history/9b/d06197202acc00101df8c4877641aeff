@@ -1,0 +1,30 @@
+package com.phonepy;
+
+public class Phonepy {
+	private String username, password;
+
+	public Phonepy(String username, String password) {
+		super();
+		this.username = username;
+		this.password = password;
+	}
+
+	public void setUsername(String username, String password) {
+		if (password.equals(this.password)) {
+			this.username = username;
+		} else {
+			System.out.println("Invalid input");
+		}
+
+	}
+
+	public void setPassword(String oldPassword, String newPassword) {
+		if (oldPassword.equals(newPassword)) {
+			password = newPassword;
+		}
+	}
+
+	Account account;
+	public void addAccount(long accountNo,String )
+
+}

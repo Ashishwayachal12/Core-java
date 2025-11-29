@@ -1,0 +1,13 @@
+package com.relationship;
+
+public class StudentTest {
+	public static void main(String[] args) {
+		Student s = new Student(1234,"smith", 23, "CSE", "allen");
+		System.out.println(s.id);
+		System.out.println(s.age);
+		System.out.println(s.name);
+		System.out.println(s.department.dName);
+		System.out.println(s.department.hodName);
+	}
+
+}

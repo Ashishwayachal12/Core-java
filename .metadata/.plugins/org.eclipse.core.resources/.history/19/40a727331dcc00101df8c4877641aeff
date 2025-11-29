@@ -1,0 +1,17 @@
+package com.encapsulation;
+
+public class AccountTest {
+	public static void main(String[] args) {
+		Account a = new Account(123456789, "ifsc3463", "smith", 100);
+		System.out.println(a.getAccountNo());
+		System.out.println(a.getBalance());
+
+		a.setAccountNo(3876732787l);
+		a.setBalance(200);
+
+		System.out.println(a.getAccountNo());
+		System.out.println(a.getBalance());
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package com.relationship;
+
+public class PersonTest {
+	
+	public static void main(String[] args) {
+		Person p = new Person(1234, "smith", 23, 2177128712l);
+		System.out.println(p.id);
+		System.out.println(p.name);
+		System.out.println(p.age);
+		System.out.println(p.mobNo);
+	}
+
+}
