@@ -1,0 +1,29 @@
+package com.method;
+
+import java.util.Scanner;
+
+public class ParameterMethod {
+
+	public static int greatest(int a, int b, int c) {
+		return a > b && a > c ? a : b > c ? b : c;
+
+	}
+
+	public static int smallest(int a, int b, int c) {
+		return a < b && a < c ? a : b < c ? b : c;
+
+	}
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter 3 numbers");
+		int a = sc.nextInt(), b = sc.nextInt(), c = sc.nextInt();
+		int gre = greatest(a, b, c);
+		System.out.println("Greatest Number:" + gre);
+		int small = smallest(a, b, c);
+		System.out.println("smallest Number:" + small);
+		sc.close();
+
+	}
+
+}

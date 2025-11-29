@@ -1,0 +1,11 @@
+package com.inheritance;
+
+public class X {
+	int x = 10;
+
+	X() {
+		System.out.println("A ");
+		
+	}
+
+}

@@ -1,0 +1,59 @@
+package com.logical;
+
+import java.util.Scanner;
+
+public class Calculater {
+	public static void main(String[] args) {
+		while (true) {
+			Scanner sc = new Scanner(System.in);
+			System.out.println("press 1 for addition.");
+			System.out.println("press 2 for substraction.");
+			System.out.println("press 3 for multiplication.");
+			System.out.println("press 4 for division.");
+			System.out.println("press 0 for exit.");
+			System.out.println("Enter your choice:");
+			int choice = sc.nextInt();
+			switch (choice) {
+			case 1: {
+				System.out.println("Enter two number:");
+				int a = sc.nextInt(), b = sc.nextInt();
+				System.out.println(a + " + " + b + " = " + (a + b));
+			}
+				break;
+
+			case 2: {
+				System.out.println("Enter two number:");
+				int a = sc.nextInt(), b = sc.nextInt();
+				System.out.println(a + " -" + b + " = " + (a - b));
+			}
+				break;
+			case 3: {
+				System.out.println("Enter two number:");
+				int a = sc.nextInt(), b = sc.nextInt();
+				System.out.println(a + " * " + b + " = " + (a * b));
+			}
+				break;
+
+			case 4: {
+				System.out.println("Enter two number:");
+				int a = sc.nextInt(), b = sc.nextInt();
+				System.out.println(a + " / " + b + " = " + (a / b));
+			}
+				break;
+			case 0: {
+				System.out.println("exiting...");
+				sc.close();
+				return;
+			}
+			default: {
+				System.out.println("Inavid choice...");
+
+			}
+
+			}
+
+		}
+
+	}
+
+}

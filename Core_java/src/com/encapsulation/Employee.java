@@ -1,0 +1,49 @@
+package com.encapsulation;
+
+public class Employee {
+	private String employeeName;
+	private int age;
+	private String gender;
+	private long mobileNo;
+
+	public Employee(String employeeName, int age, String gender, long mobileNo) {
+		super();
+		this.employeeName = employeeName;
+		this.age = age;
+		this.gender = gender;
+		this.mobileNo = mobileNo;
+	}
+
+	public String getEmployeeName() {
+		return employeeName;
+	}
+
+	public void setEmployeeName(String employeeName) {
+		this.employeeName = employeeName;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+	public String getGender() {
+		return gender;
+	}
+
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
+
+	public long getMobileNo() {
+		return mobileNo;
+	}
+
+	public void setMobileNo(long mobileNo) {
+		this.mobileNo = mobileNo;
+	}
+
+}

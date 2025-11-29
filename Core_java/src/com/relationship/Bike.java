@@ -1,0 +1,15 @@
+package com.relationship;
+
+public class Bike {
+	String brand;
+	double price;
+
+	public Bike(String brand, double price) {
+		this.brand = brand;
+		this.price = price;
+
+	}
+
+	Engine e = new Engine(123, "2stock");
+
+}

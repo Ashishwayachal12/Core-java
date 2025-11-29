@@ -1,0 +1,23 @@
+package com.encapsulation;
+
+public class AccountTest extends Account{
+	
+	public AccountTest(long accountNo, String ifsc, String accHolderName, double balance) {
+		super(accountNo, ifsc, accHolderName, balance);
+	}
+
+	public static void main(String[] args) {
+		Account a = new Account(123456789, "ifsc3463", "smith", 100);
+		System.out.println(a.getAccountNo());
+		System.out.println(a.getBalance());
+		System.out.println(a.ifsc);
+
+		a.setAccountNo(3876732787l);
+		a.setBalance(200);
+
+		System.out.println(a.getAccountNo());
+		System.out.println(a.getBalance());
+
+	}
+
+}

@@ -1,0 +1,33 @@
+package com.encapsulation;
+
+public class Account {
+	private long accountNo;
+	String ifsc;
+	String accHolderName;
+	private double balance;
+
+	public Account(long accountNo, String ifsc, String accHolderName, double balance) {
+		super();
+		this.accountNo = accountNo;
+		this.ifsc = ifsc;
+		this.accHolderName = accHolderName;
+		this.balance = balance;
+	}
+
+	public long getAccountNo() {
+		return accountNo;
+	}
+
+	public void setAccountNo(long accountNo) {
+		this.accountNo = accountNo;
+	}
+
+	public double getBalance() {
+		return balance;
+	}
+
+	public void setBalance(double balance) {
+		this.balance = balance;
+	}
+
+}

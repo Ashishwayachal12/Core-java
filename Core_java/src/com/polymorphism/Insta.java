@@ -1,0 +1,19 @@
+package com.polymorphism;
+
+public class Insta {
+
+	public static void login(String email, String password) {
+		System.out.println("login is done through email and password");
+	}
+
+	public static void login(long mobNo, String password) {
+		System.out.println("login is done by phone number and password.");
+	}
+
+	public static void main(String[] args) {
+		// method overloading
+		login(1234567890, "smith12");
+		login("smith12@gmail.com", "smith12");
+	}
+
+}

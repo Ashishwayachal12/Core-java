@@ -1,0 +1,19 @@
+package com.whileloop;
+
+import java.util.Scanner;
+
+public class count_N_to_1 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("ending value is 1:");
+		System.out.println("Enter stating value:");
+		int start = sc.nextInt(), end = 1, count = 0;
+		while (start >= end) {
+			count++;
+			start--;
+		}
+		System.out.println(count);
+		sc.close();
+	}
+
+}
